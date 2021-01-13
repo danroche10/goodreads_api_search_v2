@@ -75,7 +75,7 @@ const ChosenBook = () => {
     <div className="home">
       <br></br>
       <Link as={Link} to={`/`}>
-        <HomeIcon className="icons2" style="font-size: 2em" />
+        <HomeIcon className="icons2" />
       </Link>
       <div>
         <br></br>
