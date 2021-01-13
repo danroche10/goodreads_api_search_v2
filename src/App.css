@@ -145,8 +145,8 @@ input {
 }
 
 .boldy {
-  font-size: 1em;
-
+  font-size: 1.2em;
+  color: black;
   font-weight: bolder;
 }
 
@@ -168,8 +168,8 @@ input {
   padding-bottom: 20px;
   padding-left: 0.1em;
   padding-right: 0.1em;
-  height: 20em;
-  width: 17em;
+  height: 25em;
+  width: 30%;
   display: inline-block;
   position: relative;
 }
@@ -201,10 +201,10 @@ input {
   color: #2962ff;
 }
 
-.icons2 {
+.MuiSvgIcon-root icons2 {
   color: #2962ff;
-  height: 3em;
-  width: 3em;
+  height: 6em;
+  width: 6em;
 }
 
 .submit {

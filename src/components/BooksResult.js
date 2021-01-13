@@ -104,15 +104,14 @@ const BooksResult = () => {
                 parseFloat(b.averageRating) - parseFloat(a.averageRating)
             )
             .map((x) => (
-              <div key={x.title} className="col-md-6" className="boxer">
-                <BookCard
-                  title={x.title}
-                  bookImage={x.bookImage}
-                  about_book={x.about_book}
-                  averageRating={x.averageRating}
-                  publication_year={x.publication_year}
-                />
-              </div>
+              <BookCard
+                key={x.title}
+                title={x.title}
+                bookImage={x.bookImage}
+                about_book={x.about_book}
+                averageRating={x.averageRating}
+                publication_year={x.publication_year}
+              />
             ))}
         </div>
       </div>
