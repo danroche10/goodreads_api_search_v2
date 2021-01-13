@@ -20,7 +20,6 @@ const App = () => {
           <Router>
             <Route exact path="/" component={Home} />
             <Route exact path="/:book" component={ChosenBook} />
-            <Route render={() => <Redirect to={{ pathname: "/" }} />} />
           </Router>
         </BookContext.Provider>
       </AuthyContext.Provider>
