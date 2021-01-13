@@ -110,7 +110,7 @@ const Home = () => {
           ref={register({ required: true })}
         />
         <br></br>
-        <input type="submit" className="submit" />
+        <input type="submit" className="submit" value="search" />
       </form>
 
       {error ? (
