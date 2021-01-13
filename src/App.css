@@ -1,0 +1,242 @@
+body {
+  background: #f2f2f2;
+  font-family: "Inter", sans-serif;
+}
+
+input {
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.authorDescription {
+  font-size: 1em;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+}
+
+.authorDescription2 {
+  font-size: 1.6em;
+  display: inline;
+}
+
+.authorDescription3 {
+  font-size: 1.6em;
+  color: #616161;
+  display: inline;
+  margin-left: 1%;
+}
+
+.MuiAutocomplete-listbox {
+  height: 150px;
+}
+
+.pageTitle {
+  font-weight: bolder;
+  display: block !important;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.description {
+  font-size: 1rem;
+  margin: 0px;
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+}
+
+.essayPageDescription {
+  font-size: 1rem;
+  margin: auto;
+  width: 50%;
+}
+
+.form-container {
+  width: 400px;
+  margin: auto;
+}
+
+.submit-button {
+  margin-top: 1rem !important;
+}
+.header {
+  text-transform: capitalize;
+}
+
+::placeholder {
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.MuiAutocomplete-listbox {
+  height: 150px;
+}
+
+.author_image {
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.search {
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.cardImage {
+  opacity: 0.7;
+  margin-bottom: 2%;
+  margin: 0;
+  height: 4em;
+  width: 4em;
+}
+
+.author_card_description {
+  width: 80%;
+}
+
+.container-1 {
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.container-2 {
+  justify-content: center;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.bookImage {
+  opacity: 0.7;
+  margin: 0;
+  height: 8em;
+  width: 5em;
+}
+
+.home {
+  width: 60%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bookTitle {
+  font-size: 0.8em;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.boldy {
+  font-size: 1em;
+
+  font-weight: bolder;
+}
+
+.boldy2 {
+  font-size: 1em;
+  margin-bottom: 2%;
+  color: #616161;
+}
+
+.authorDescription {
+  font-size: 0.8em;
+}
+
+.bookCard {
+  border-radius: 25px;
+  border: 1px solid black;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  height: 20em;
+  width: 17em;
+  display: inline-block;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  right: 37%;
+  background-color: #2962ff;
+  color: white;
+  border: #2962ff;
+  bottom: 5%;
+  border-radius: 5%;
+}
+.choseBookButton {
+  width: 5em;
+  height: 1.5em;
+}
+.sorry {
+  margin-top: 2%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  color: #2962ff;
+}
+
+.icons2 {
+  color: #2962ff;
+  height: 3em;
+  width: 3em;
+}
+
+.submit {
+  background-color: #2962ff;
+  color: white;
+  border: #2962ff;
+  border-radius: 5%;
+  height: 1.5em;
+  width: 10%;
+  margin-top: 0.5%;
+}
+
+.searchBar {
+  height: 2em;
+  width: 20%;
+}
+
+.searchParent {
+  position: relative;
+}
+
+.container {
+  align-items: center;
+}
+
+.authorImage {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+}
+.chosenBookTitle {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-top: 1%;
+}
