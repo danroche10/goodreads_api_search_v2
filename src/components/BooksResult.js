@@ -105,7 +105,6 @@ const BooksResult = () => {
             )
             .map((x) => (
               <BookCard
-                key={x.title}
                 title={x.title}
                 bookImage={x.bookImage}
                 about_book={x.about_book}

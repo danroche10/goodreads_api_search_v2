@@ -100,6 +100,7 @@ const Home = () => {
         Search for your favourite author!
       </div>
       <br></br>
+
       <form onSubmit={handleSubmit(onSubmit)} className="searchParent">
         <input
           className="searchBar"
@@ -116,9 +117,15 @@ const Home = () => {
         <div className="sorry">
           Sorry, we couldn't find what you were looking for. Search again!
         </div>
+      ) : !authy ? (
+        <div>
+          <br></br>
+          loading...
+        </div>
       ) : (
         <BooksResult authy={authy} key={authy} />
       )}
+
       <br></br>
     </div>
   );
