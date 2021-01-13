@@ -145,7 +145,7 @@ input {
 }
 
 .boldy {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: black;
   font-weight: bolder;
 }
@@ -168,7 +168,7 @@ input {
   padding-bottom: 20px;
   padding-left: 0.1em;
   padding-right: 0.1em;
-  height: 25em;
+  height: 27em;
   width: 30%;
   display: inline-block;
   position: relative;
