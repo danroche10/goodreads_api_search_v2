@@ -45,7 +45,7 @@ input {
 .description {
   font-size: 1rem;
   margin: 0px;
-  width: 90%;
+  width: 89.5%;
   margin-top: 2%;
   margin-bottom: 4%;
   border-radius: 25px;
@@ -176,7 +176,7 @@ input {
   padding-left: 0.1em;
   padding-right: 0.1em;
   height: 27em;
-  width: 30%;
+  width: 18.5em;
   display: inline-block;
   position: relative;
 }
