@@ -92,7 +92,7 @@ const BooksResult = () => {
 
       <div className="container-2">
         <Image size="mini" src={authorImage} className="authorImage" />
-        <div className="description" style={{ fontSize: 12 }}>
+        <div className="description">
           {data2 ? data2 : "Sorry, there is no description for this author :("}
         </div>
 
